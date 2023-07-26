@@ -35,4 +35,16 @@ def board():
     print(board[6], " | ", board[7], " | ", board[8])
 
 
-board()
+def play():
+    pl1 = input("Enter your name player 1")
+    pl2 = input("Enter y0ur name player 2")
+
+    pl1_symbol = "X"
+    pl2_symbol = "O"
+
+    print("{} your symbol is  X".format(pl1))
+    print("{} your symbol is  O".format(pl2))
+
+
+def update_board():
+    pass
