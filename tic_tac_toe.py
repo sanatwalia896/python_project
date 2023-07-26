@@ -37,13 +37,21 @@ def board():
 
 def play():
     pl1 = input("Enter your name player 1")
-    pl2 = input("Enter y0ur name player 2")
+    pl2 = input("Enter your name player 2")
 
     pl1_symbol = "X"
     pl2_symbol = "O"
 
     print("{} your symbol is  X".format(pl1))
     print("{} your symbol is  O".format(pl2))
+
+    board_update = 0
+    choice = "wrong"
+    flag = False
+    expected_value = list(range(0, 10))
+
+    while board_update != 9 or choice.isdigit() or flag == False:
+        choice
 
 
 def update_board():
