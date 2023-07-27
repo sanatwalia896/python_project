@@ -51,7 +51,7 @@ def play():
     expected_value = list(range(0, 10))
 
     while board_update != 9 or choice.isdigit() or flag == False:
-        choice
+        
 
 
 def update_board():
